@@ -48,7 +48,11 @@
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
-                            <form id="contactForm" method="POST" action="send_email.php">
+                            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                                <!-- Hidden Web3Forms Access Key -->
+                                <input type="hidden" name="access_key" value="7ec1258a-6144-454e-a9ce-05144c285cb3" />
+                                <!-- Hidden Email to receive submissions -->
+                                <input type="hidden" name="recipient" value="pushpakoirala.com.np@gmail.com" />
                                 <!-- Name input-->
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
