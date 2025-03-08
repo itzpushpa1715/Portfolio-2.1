@@ -1,0 +1,28 @@
+.blog-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Space between items */
+}
+
+.blog-item {
+    width: 100%;
+    text-align: center;
+}
+
+.pdf-viewer {
+    width: 100%;
+    height: 1800px; /* Larger than A4 */
+    border: none;
+}
+
+.full-image {
+    width: 100%;
+    height: 1800px;
+    object-fit: cover;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
