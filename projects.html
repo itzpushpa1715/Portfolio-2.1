@@ -99,7 +99,84 @@
                                 </div>
                             </div>
                             <br>
-                            <br><!-- Project Card 4-->
+                            <br>
+                            <!-- Project Card 4-->
+                             <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Motor control Logic Program</h2>
+
+                                                                                            Motor can by started with the push button S1 and stopped with the push button S2. The motor will run when PLC output K1 is active.
+                                                    The motor must stop automatically after the induction sensor S3 has given 100 pulses to prevent motor overheating. If the motor is stopped manually before the pulses reach 100, the pulse counter is reset.
+                                                    The motor must be ready for a restart with the S1 button after a manual or an automatic stop.
+                                                    Note that both buttons are push buttons, which means that the signal state will only be 1 when the button is held. Design the program so that the buttons must only be pressed once for the motor to run and to stop.
+                                                    Some basic blocks that you will need are: SR or RS flip-flops, counter, comparators.
+                                                    Test the program with PLC simulation.
+                                                    </p>
+                                            <p>
+                                                <a href="logic program/LC_Lab2_AG1715.pdf"_blank">
+                                                    Project File
+                                                </a>
+                                                <br>
+                                                <a href="project/Motor control program.jpg"_blank">
+                                                    Project diagram
+                                                </a>
+                                            </p> 
+                                        </div>
+                                        <img class="img-fluid" src="project/image-300x400.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <Br>
+                            <br>
+                            <!-- Project Card 5-->
+                             <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Heating Control program</h2>
+                                            <p>The resistor is controlled by the output K1. When the temperature measurement TT101 drops below 50°C, the output is activated. When the temperature is over 55°C, the output is turned off.
+                                                The system also has an alarm signal light, which is connected to the output H1. The alarm light must be on in the following situations:
+                                                The heating resistor has been on for 5 minutes and the temperature is still under 55°C
+                                                The heating resistor is on, but the temperature is over 56°C
+                                                The alarm can be reset with the pushbutton S3, otherwise the signal light must stay on, even if the situation that caused the alarm has been solved. A reset is always required.
+                                                The temperature measurement TT101 measures the temperature between 0-100°C and since it’s connected to a Siemens analog input, the value that the PLC receives is 0-27648. </p>
+                                            <p>
+                                                <a href="logic program/LC_Lab3_preliminary_task_return.pdf"_blank">
+                                                    Project File
+                                                </a>
+                                                <br>
+                                                <a href="project/Heating Control.jpg"_blank">
+                                                    Project Diagram
+                                                </a>
+                                            </p>   
+                                        </div>
+                                        <img class="img-fluid" src="project/image-340x600.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <!-- Project Card 6-->
+                             <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">PLC and RELAY CONNECTIONS</h2>
+                                            <p>This PLC program controls three lamps via a relay using a push button. When the push button is pressed, the lamps illuminate. An alarm activates if the relay is not energized while the button is pressed, or if the relay is energized when the button is not pressed. This alarm does not require an acknowledgment signal. The PLC used is a Siemens S7 1214C."</p>
+                                            <p>
+                                                <a href="project/Preliminary task for course.pdf" target="_blank">
+                                                    Project File
+                                                </a> <br>
+                                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7322569906808385536/" target="_blank">View LinkedIn Post</a>
+                                            </p>   
+                                        </div>
+                                        <img class="img-fluid" src="project/plc and relay connection.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 7-->
             </section>
                             
             <!-- Call to action section-->
